@@ -1,0 +1,7 @@
+sample condition path
+3_2 paraclone "\\wsl.localhost\Ubuntu\home\laurafernandez\rnaseq_course\quantification\3_2"
+3_4 paraclone "\\wsl.localhost\Ubuntu\home\laurafernandez\rnaseq_course\quantification\3_4"
+3_7 paraclone "\\wsl.localhost\Ubuntu\home\laurafernandez\rnaseq_course\quantification\3_7"
+P1_ parental "\\wsl.localhost\Ubuntu\home\laurafernandez\rnaseq_course\quantification\P1_"
+P2_ parental "\\wsl.localhost\Ubuntu\home\laurafernandez\rnaseq_course\quantification\P2_"
+P3_ parental "\\wsl.localhost\Ubuntu\home\laurafernandez\rnaseq_course\quantification\P3_"
