@@ -1,0 +1,30 @@
+total of estimated counts for 3_2: 3.28038e+07
+number of transcripts detected for 3_2: 117420
+number of genes detected for 3_2: 49118
+number of novel transcripts detected for 3_2: 10341
+number of novel genes detected for 3_2: 2425
+total of estimated counts for 3_4: 3.11572e+07
+number of transcripts detected for 3_4: 114062
+number of genes detected for 3_4: 47457
+number of novel transcripts detected for 3_4: 10081
+number of novel genes detected for 3_4: 2421
+total of estimated counts for 3_7: 3.14683e+07
+number of transcripts detected for 3_7: 114841
+number of genes detected for 3_7: 47557
+number of novel transcripts detected for 3_7: 10270
+number of novel genes detected for 3_7: 2387
+total of estimated counts for P1_: 3.04773e+07
+number of transcripts detected for P1_: 116606
+number of genes detected for P1_: 48945
+number of novel transcripts detected for P1_: 10331
+number of novel genes detected for P1_: 2429
+total of estimated counts for P2_: 3.05527e+07
+number of transcripts detected for P2_: 116613
+number of genes detected for P2_: 48651
+number of novel transcripts detected for P2_: 10252
+number of novel genes detected for P2_: 2380
+total of estimated counts for P3_: 3.09039e+07
+number of transcripts detected for P3_: 118167
+number of genes detected for P3_: 49636
+number of novel transcripts detected for P3_: 10377
+number of novel genes detected for P3_: 2427
