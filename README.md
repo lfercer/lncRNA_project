@@ -38,3 +38,26 @@ STEP 5: differential_expression
 -   my_annotation_table.txt : it compiles transcript_id, gene_id, gene_name and biotype information for each transcript present in the transcriptome assembly (meta_assembly.gtf). It is necessary to map each transcript to one gene due to the differential expression analysis is performed at transcript level.
   
 - differential_expression_table.txt : deliverable file. It contains transcript_id, gene_id, gene_name, biotype, log2FC and q-value.
+
+  STEP 6: integrative_analysis
+  - Bash scripts:
+  - 13_create_bed.sh : to create two BED files (novel_transcripts.bed and annotated_transcripts.bed, they can be found in the cluster: /data/users/lfernandez/rnaseq_course/integrative_analysis/output_files ) from the meta_assembly.gtf
+  - 14_intersect_intergenic.sh : to find the novel intergenic transcripts.
+  - 15_bed_window.sh :  to create a BED files with a window of 100 nucleotides around the transcription start sites (TSS) and transcription end sites (TES) of the novel transcripts. Required for the next step.
+  - 16_intersect_5prime.sh : to find the overlaps of the TSS of the novel transcripts and the FANTOM CAGE of TSS.
+  -  17_intersect_3prime.sh :to find the overlaps of the TES of the novel transcripts and the FANTOM CAGE of TES.
+  -  18_run_CPAT.sh : to estimate the protein coding potential of the novel transcripts.
+  -  19_step6_questions.sh :  to answer the questions of the step 6.
+
+  - /output_files :
+  - step6_answers.txt : deliverable. Statistics and porcentages answering the questions of the step
+  - novel_intergenic_transcripts_plot.pdf : deliverable. It shows the percentage of intergenic, 5’ well-annotated, 3’ well-annotated, 5’ and 3’ well-annotated and protein coding transcripts above the total of novel transcripts.
+  - novel_transcripts_plot.pdf : deliverable. It shows the percentage of intergenic, 5’ well-annotated, 3’ well-annotated, 5’ and 3’ well-annotated and protein coding transcripts above the total of novel intergenic transcripts.
+
+    - All the BED files required can be found in the cluster: /data/users/lfernandez/rnaseq_course/integrative_analysis/output_files
+      
+    - All the reference files used can be found: /data/courses/rnaseq_course/lncRNAs/Project1/references
+
+
+
+    
