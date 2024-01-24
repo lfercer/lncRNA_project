@@ -22,9 +22,9 @@ STEP 3: assembly
         
 STEP 4: quantification
 - Bash scripts: 
-  09_transcriptome_fasta.sh : create a transcriptome fasta file from meta-assembly.gtf and the kallisto indexed file
-  10_kallisto_quantification.sh : run Kallisto per each sample
-  11_summary_quantification.sh : to answer the questions of step 4.
+  - 09_transcriptome_fasta.sh : create a transcriptome fasta file from meta-assembly.gtf and the kallisto indexed file
+  - 10_kallisto_quantification.sh : run Kallisto per each sample
+  - 11_summary_quantification.sh : to answer the questions of step 4.
 - step4_questions.txt :  answers to questions of step 4. Total of estimated counts, and number of transcripts, genes, novel transcripts and novel genes detected per sample.
 - transcript_expression_table.txt : deliverable file with transcript_id as row names and samples as column names. The expression levels are expressed in estimated counts.
 - In the directory (/data/users/lfernandez/rnaseq_course/quantification/output_files) of the cluster you can find the transcriptome fasta files as well as the kallisto indexed file, and one directory per sample with the results from kallisto quantification.
