@@ -48,7 +48,7 @@ STEP 5: differential_expression
   -  17_intersect_3prime.sh :to find the overlaps of the TES of the novel transcripts and the FANTOM CAGE of TES.
   -  18_run_CPAT.sh : to estimate the protein coding potential of the novel transcripts.
   -  19_step6_questions.sh :  to answer the questions of the step 6.
-  -  20_summary_table.R : R script to join information from DE and integrative analysis and make a sorted table of the transcripts. It also includes the code to generate the plots of the integrative analysis.
+- 20_summary_table.R : R script to join information from DE and integrative analysis and make a sorted table of the transcripts. It also includes the code to generate the plots of the integrative analysis.
 
 - /output_files :
   - step6_answers.txt : deliverable. Statistics and porcentages answering the questions of the step
