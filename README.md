@@ -31,7 +31,7 @@ STEP 4: quantification
 
 STEP 5: differential_expression
 - 08_table_mapping_transcriptsID.sh : bash script to create my_annotation_table.txt from the transcriptome assembly "meta_assembly.gtf".
-- 13_sleuth.R : R script to perform the differential expression analysis and subsequents plots. It requires the files: samples.txt and my_annotation_table.txt
+- 12_sleuth.R : R script to perform the differential expression analysis and subsequents plots. It requires the files: samples.txt and my_annotation_table.txt
   
 - /required_files: 
   - samples.txt : file that specifies the sample, condition and path to kallisto quantification output. It is required for the preparation step ('sleuth_prep') in Sleuth
