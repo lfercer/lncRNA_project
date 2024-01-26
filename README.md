@@ -48,13 +48,13 @@ STEP 5: differential_expression
   -  17_intersect_3prime.sh :to find the overlaps of the TES of the novel transcripts and the FANTOM CAGE of TES.
   -  18_run_CPAT.sh : to estimate the protein coding potential of the novel transcripts.
   -  19_step6_questions.sh :  to answer the questions of the step 6.
-- 20_summary_table.R : R script to join information from DE and integrative analysis and make a sorted table of the transcripts. It also includes the code to generate the plots of the integrative analysis.
+- 20_prioritization.R : R script to join information from DE and integrative analysis and make a sorted table of the transcripts. It also includes the code to generate the plots of the integrative analysis.
 
 - /output_files :
   - step6_answers.txt : deliverable. Statistics and porcentages answering the questions of the step
   - novel_intergenic_transcripts_plot.pdf : deliverable. It shows the percentage of intergenic, 5’ well-annotated, 3’ well-annotated, 5’ and 3’ well-annotated and protein coding transcripts above the total of novel transcripts.
   - novel_transcripts_plot.pdf : deliverable. It shows the percentage of intergenic, 5’ well-annotated, 3’ well-annotated, 5’ and 3’ well-annotated and protein coding transcripts above the total of novel intergenic transcripts.
-  - sorted_list.tsv : list of transcripts sorted regarding the prioritization criteria.
+  - prioritization_novel_table.tsv : list of novel transcripts sorted regarding the prioritization criteria.
 
  - All the BED files required can be found in the cluster: /data/users/lfernandez/rnaseq_course/integrative_analysis/output_files
 
