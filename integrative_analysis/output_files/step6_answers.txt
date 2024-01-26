@@ -1,7 +1,0 @@
-Total of novel transcripts: 11717
-Number of novel intergenic transcripts: 212
-Percentage of novel transcripts considered as intergenic: 1.809%
-Percentage of novel transcripts with 5' and 3' good annotations: 70.393%
-Percentage of novel transcripts with 5' good annotations: 82.230%
-Percentage of novel transcripts with  3' good annotations: 81.351%
-Percentage of novel transcripts considered as protein coding: 7.740%
