@@ -58,7 +58,7 @@ echo "Percentage of novel transcripts with  3' good annotations: $result3%" >> $
 #Question 2
 # Cutoff chosen for human: 0.364 (optimum determined from TG-ROC)
 #Transcripts with protein coding probability > 0.364 are considerated protein coding
-prot_coding=$(awk '{if($5 > 0.364) ++n} END{print n}' novel_coding_potential.dat)
+prot_coding=$(awk '{if($5 > 0.364) ++n} END{print n}' novel_coding_potential )
 result4=$(echo "scale=3 ; ($prot_coding * 100 / $total ) " | bc )
 echo "Using a threshold of 0.364 to consider as protein coding transcript:"
 echo "Percentage of novel transcripts considered as protein coding: $result4%" >> $OUTPUT_DIR/step6_answers.txt
