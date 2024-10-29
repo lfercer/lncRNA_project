@@ -4,7 +4,7 @@
 
 **Project Description**: This project is focused on the annotation and characterization of long non-coding RNAs (lncRNAs) in lung cancer, specifically non-small cell lung carcinoma (NSCLC), using RNA sequencing data from two phenotypically distinct A549 cell populations.Through differential expression and integrative analysis, prioritized lncRNA targets were identified based on intergenic nature, transcription site annotation quality, and protein-coding potential.
 
-**Project Structure**
+## **Project Structure**
 
 The project is divided into several steps, each in its own directory.
 Each directory refers to one step of the project. The description of the contents of each directory is indicated afterwards.
