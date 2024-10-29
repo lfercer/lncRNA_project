@@ -12,11 +12,11 @@ Bash and R scripts are enumerated regarding its execution in the workflow.
 STEP 1: [quality](/quality) :  Initial data quality checks
 - Bash scripts
 - [count_reads.txt](/quality/count_reads.txt) : Read counts per sample . Output file from [01_count_allreads_2.sh](/quality/01_count_allreads_2.sh)
-- /output_fastqc : it contains htmls for each sample and mate to fastqc output.
+- [output_fastqc](quality/output_fastqc) : FastQC reports (HTMLs) for each sample and mate
   
 STEP 2: [alignment](/alignment)
 - Bash scripts
-- /output_files : summary of statistics and alignment rates of each sample
+- [output_files](alignment/output_files) : summary of statistics and alignment rates of each sample
 - SAM and BAM files can be found in the following directory in the cluster: /data/users/lfernandez/rnaseq_course/alignment/output_files
 
 STEP 3: assembly
