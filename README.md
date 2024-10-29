@@ -2,7 +2,7 @@
 # Annotation and characterization of lncRNAs in Lung Cancer
 
 
-##**Project Description**: 
+## **Project Description**: 
 RNA sequencing course - University of Bern
 This project is focused on the annotation and characterization of long non-coding RNAs (lncRNAs) in lung cancer, specifically non-small cell lung carcinoma (NSCLC), using RNA sequencing data from two phenotypically distinct A549 cell populations.Through differential expression and integrative analysis, prioritized lncRNA targets were identified based on intergenic nature, transcription site annotation quality, and protein-coding potential.
 
