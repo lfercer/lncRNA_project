@@ -9,22 +9,22 @@ The project is divided into several steps, each in its own directory.
 Each directory refers to one step of the project. The description of the contents of each directory is indicated afterwards.
 Bash and R scripts are enumerated regarding its execution in the workflow.
 
-STEP 1: [quality](/quality) :  Initial data quality checks
+STEP 1 - [quality](/quality) :  Initial data quality checks
 - Bash scripts
 - [count_reads.txt](/quality/count_reads.txt) : Read counts per sample . Output file from [01_count_allreads_2.sh](/quality/01_count_allreads_2.sh)
 - [output_fastqc](quality/output_fastqc) : FastQC reports (HTMLs) for each sample and mate
   
-STEP 2: [alignment](/alignment)
+STEP 2 - [alignment](/alignment) : Alignment to the reference genome
 - Bash scripts
 - [output_files](alignment/output_files) : summary of statistics and alignment rates of each sample
 - SAM and BAM files can be found in the following directory in the cluster: /data/users/lfernandez/rnaseq_course/alignment/output_files
 
-STEP 3: assembly
-- Bash scripts: 06_run_allStringTie.sh, 06_run_merge_StringTie.sh and 07_count_transcripts.sh to answer the questions of step 3.
+STEP 3 - [assembly](/assembly) :Transcriptome assembly using StringTie
+- Bash scripts: 06_run_allStringTie.sh, 06_run_merge_StringTie.sh and 07_count_transcripts.sh
 - /output_files: count_assembly.txt -> answers to the questions of step 3.
 - meta-assembly GTF file can be found in the cluster: /data/users/lfernandez/rnaseq_course/assembly/output_files/meta_assembly.gtf
         
-STEP 4: quantification
+STEP 4 - [quantification](/quantification)
 - Bash scripts: 
   - 09_transcriptome_fasta.sh : create a transcriptome fasta file from meta-assembly.gtf and the kallisto indexed file
   - 10_kallisto_quantification.sh : run Kallisto per each sample
@@ -33,7 +33,7 @@ STEP 4: quantification
 - transcript_expression_table.txt : deliverable file with transcript_id as row names and samples as column names. The expression levels are expressed in estimated counts.
 - In the directory (/data/users/lfernandez/rnaseq_course/quantification/output_files) of the cluster you can find the transcriptome fasta files as well as the kallisto indexed file, and one directory per sample with the results from kallisto quantification.
 
-STEP 5: differential_expression
+STEP 5 - [differential_expression](/differential_expression)
 - 08_table_mapping_transcriptsID.sh : bash script to create my_annotation_table.txt from the transcriptome assembly "meta_assembly.gtf".
 - 12_sleuth.R : R script to perform the differential expression analysis and subsequents plots. It requires the files: samples.txt and my_annotation_table.txt
   
@@ -43,7 +43,7 @@ STEP 5: differential_expression
   
 - differential_expression_table.txt : deliverable file. It contains transcript_id, gene_id, gene_name, biotype, log2FC and q-value.
 
-  STEP 6: integrative_analysis
+  STEP 6: [integrative_analysis](/integrative_analysis)
 - Bash scripts:
   - 13_create_bed.sh : to create two BED files (novel_transcripts.bed and annotated_transcripts.bed, they can be found in the cluster: /data/users/lfernandez/rnaseq_course/integrative_analysis/output_files ) from the meta_assembly.gtf
   - 14_intersect_intergenic.sh : to find the novel intergenic transcripts.
@@ -64,7 +64,7 @@ STEP 5: differential_expression
 
  - All the reference files used can be found: /data/courses/rnaseq_course/lncRNAs/Project1/references
 
-- /Supplementary : contains Supplementary materials mentionated in the scientific report.
+- [Supplementary](/Supplementary) : contains Supplementary materials mentionated in the scientific report.
 
 
 
