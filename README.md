@@ -5,7 +5,7 @@
 Each directory refers to one step of the project. The description of the contents of each directory is indicated afterwards.
 Bash scripts are enumerated by the order the jobs were submitted.
 
-STEP 1: [quality](lncRNA_project/quality)
+STEP 1: [quality](~/quality)
 - Bash scripts
 - count_reads.txt : count of the reads for each sample. Output file from 01_count_allreads_2.sh
 - /output_fastqc : it contains htmls for each sample and mate to fastqc output.
