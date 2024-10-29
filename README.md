@@ -1,16 +1,20 @@
 # lncRNA_project
-# RNA sequencing course
-# Name: Laura Fernández Cerro
+# Annotation and characterization of lncRNAs in Lung Cancer
+# RNA sequencing course - University of Bern
 
+**Project Description**:This project is focused on the annotation and characterization of long non-coding RNAs (lncRNAs) in lung cancer, specifically non-small cell lung carcinoma (NSCLC), using RNA sequencing data from two phenotypically distinct A549 cell populations.Through differential expression and integrative analysis, prioritized lncRNA targets were identified based on intergenic nature, transcription site annotation quality, and protein-coding potential.
+
+**Project Structure**
+The project is divided into several steps, each in its own directory.
 Each directory refers to one step of the project. The description of the contents of each directory is indicated afterwards.
-Bash scripts are enumerated by the order the jobs were submitted.
+Bash and R scripts are enumerated regarding its execution in the workflow.
 
-STEP 1: [quality](/quality)
+STEP 1: [quality](/quality) :  Initial data quality checks
 - Bash scripts
-- count_reads.txt : count of the reads for each sample. Output file from 01_count_allreads_2.sh
+- [count_reads.txt](/quality/count_reads.txt) : Read counts per sample . Output file from [01_count_allreads_2.sh](/quality/01_count_allreads_2.sh)
 - /output_fastqc : it contains htmls for each sample and mate to fastqc output.
   
-STEP 2: alignment
+STEP 2: [alignment](/alignment)
 - Bash scripts
 - /output_files : summary of statistics and alignment rates of each sample
 - SAM and BAM files can be found in the following directory in the cluster: /data/users/lfernandez/rnaseq_course/alignment/output_files
