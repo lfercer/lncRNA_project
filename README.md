@@ -3,7 +3,7 @@
 # Name: Laura Fernández Cerro
 
 Each directory refers to one step of the project. The description of the contents of each directory is indicated afterwards.
-Bash scripts are enumerated by the order they were submitted.
+Bash scripts are enumerated by the order the jobs were submitted.
 
 STEP 1: quality
 - Bash scripts
