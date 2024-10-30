@@ -68,6 +68,7 @@ STEP 5 - [differential_expression](/differential_expression)
 
  - All the reference files used can be found: /data/courses/rnaseq_course/lncRNAs/Project1/references
 
+ - For any questions or material, please feel free to reach me [lfercer.2014@gmail.com](mailto:lfercer.2014@gmail.com)
 
 
 
