@@ -47,7 +47,7 @@ STEP 5 - [differential_expression](/differential_expression)
   
 - [differential_expression_table.txt](/required_files/differential_expression_table.txt) : Summary with transcript_id, gene_id, gene_name, biotype, log2FC and q-value.
 
-  STEP 6: [integrative_analysis](/integrative_analysis)
+STEP 6 - [integrative_analysis](/integrative_analysis)
 - Bash scripts:
   - [13_create_bed.sh](/integrative_analysis/13_create_bed.sh) : to create two BED files (novel_transcripts.bed and annotated_transcripts.bed, they can be found in the cluster: /data/users/lfernandez/rnaseq_course/integrative_analysis/output_files ) from the meta_assembly.gtf
   - [14_intersect_intergenic.sh](/integrative_analysis/14_intersect_intergenic.sh) : to find the novel intergenic transcripts.
