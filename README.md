@@ -38,14 +38,14 @@ STEP 4 - [quantification](/quantification)
 - In the directory (/data/users/lfernandez/rnaseq_course/quantification/output_files) of the cluster you can find the transcriptome fasta files as well as the kallisto indexed file, and one directory per sample with the results from kallisto quantification.
 
 STEP 5 - [differential_expression](/differential_expression)
-- 08_table_mapping_transcriptsID.sh : bash script to create my_annotation_table.txt from the transcriptome assembly "meta_assembly.gtf".
-- 12_sleuth.R : R script to perform the differential expression analysis and subsequents plots. It requires the files: samples.txt and my_annotation_table.txt
+- [08_table_mapping_transcriptsID.sh](/differential_expression/08_table_mapping_transcriptsID.sh) : bash script to create my_annotation_table.txt from the transcriptome assembly "meta_assembly.gtf".
+- [12_sleuth.R](/differential_expression/12_sleuth.R) : R script to perform the differential expression analysis and subsequents plots. It requires the files: samples.txt and my_annotation_table.txt
   
-- /required_files: 
-  - samples.txt : file that specifies the sample, condition and path to kallisto quantification output. It is required for the preparation step ('sleuth_prep') in Sleuth
-  - my_annotation_table.txt : it compiles transcript_id, gene_id, gene_name and biotype information for each transcript present in the transcriptome assembly (meta_assembly.gtf). It is necessary to map each transcript to one gene due to the differential expression analysis is performed at transcript level.
+- [/required_files](/required_files): 
+  - [samples.txt](/required_files/samples.txt) : file that specifies the sample, condition and path to kallisto quantification output. It is required for the preparation step ('sleuth_prep') in Sleuth
+  - [my_annotation_table.txt](/required_files/my_annotation_table.txt) : it compiles transcript_id, gene_id, gene_name and biotype information for each transcript present in the transcriptome assembly (meta_assembly.gtf). It is necessary to map each transcript to one gene due to the differential expression analysis is performed at transcript level.
   
-- differential_expression_table.txt : Summary with transcript_id, gene_id, gene_name, biotype, log2FC and q-value.
+- [differential_expression_table.txt](/required_files/differential_expression_table.txt) : Summary with transcript_id, gene_id, gene_name, biotype, log2FC and q-value.
 
   STEP 6: [integrative_analysis](/integrative_analysis)
 - Bash scripts:
